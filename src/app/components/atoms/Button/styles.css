@@ -1,0 +1,41 @@
+.button_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 10vw;
+  background-color: #313131;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #f13005;
+  transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 1150px) {
+  .button {
+    width: 15vw;
+  }
+}
+
+@media (max-width: 766px) {
+  .button {
+    width: 20vw;
+  }
+}
+
+@media (max-width: 668px) {
+  .button {
+    width: 30vw;
+  }
+}

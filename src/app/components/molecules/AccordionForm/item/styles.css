@@ -1,0 +1,8 @@
+.content {
+  max-height: 2000px;
+  transition: max-height ease 0.4s;
+}
+.content.hidden {
+  max-height: 0px;
+  transition: max-height ease 0.4s;
+}
